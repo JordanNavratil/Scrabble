@@ -1,6 +1,6 @@
 1)User enters a one letter word and receives the value.
 input=a
-output='a'
+output='1'
 
 2)User enters a two letter word with both words coming from the same letter group.
 input = an

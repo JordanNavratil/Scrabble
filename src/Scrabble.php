@@ -1,7 +1,7 @@
 <?php
     class Scrabble
     {
-        fucntion findScore($word)
+        function findScore($word)
         {
 
         }
