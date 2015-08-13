@@ -42,6 +42,19 @@
             $this->assertEquals("5", $result);
         }
 
+        function test_findScore_fourLetter()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $user_word = "adbf";
+
+            //Act
+            $result = $test_Scrabble->findScore($user_word);
+
+            //Assert
+            $this->assertEquals("10", $result);
+        }
+
 
 
 
