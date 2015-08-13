@@ -30,11 +30,12 @@
                 } elseif (in_array($letter, $group7)) {
                     $result = $result +10;
                 } else {
-                    $result = 'This is not a word';
+                    $result = 'This is not a word!';
                 }
-        }
+            }
             return $result;
         }
+
     }
 
 
