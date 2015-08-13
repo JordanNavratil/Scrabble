@@ -1,0 +1,31 @@
+1)User enters a one letter word and receives the value.
+input=a
+output='a'
+
+2)User enters a two letter word with both words coming from the same letter group.
+input = an
+output = 'an'
+
+3)User inputs a three letter word using two different letter values.
+input = egg
+output = 'egg'
+
+4)User inputs a 4 letter word using four different letter values.
+input = adbf
+output = 'adbf'
+
+5)User inputs a 5 letter word using 5 different letter values.
+input = egchk
+output = 'egchk'
+
+6)User inputs a 6 letter word using 6 different letter values.
+input = igbvkj
+output = igbvkj
+
+7)User inputs a 7 letter word using 7 different letter values.
+input = zjkypgt
+output = 'zjkypgt'
+
+8)User inputs invalid characters and receives an error message
+input = *#*
+output = "Characters not valid"
