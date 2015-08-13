@@ -7,14 +7,14 @@
         {
             //Arrange
             $test_Scrabble = new Scrabble;
-            $word = "a";
+            $user_word = "a";
 
             //Act
-            $result = $test_Scrabble->findScore($word);
+            $result = $test_Scrabble->findScore($user_word);
 
             //Assert
-            $this->assertEquals("1 pt", $result);
+            $this->assertEquals("1", $result);
         }
 
     }
- ?>
+?>
