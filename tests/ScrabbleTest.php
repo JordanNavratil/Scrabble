@@ -16,5 +16,34 @@
             $this->assertEquals("1", $result);
         }
 
+        function test_findScore_twoLetter()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $user_word = "an";
+
+            //Act
+            $result = $test_Scrabble->findScore($user_word);
+
+            //Assert
+            $this->assertEquals("2", $result);
+        }
+
+        function test_findScore_threeLetter()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $user_word = "egg";
+
+            //Act
+            $result = $test_Scrabble->findScore($user_word);
+
+            //Assert
+            $this->assertEquals("5", $result);
+        }
+
+
+
+
     }
 ?>
