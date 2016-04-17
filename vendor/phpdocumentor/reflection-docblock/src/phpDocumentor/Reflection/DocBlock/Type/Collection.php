@@ -206,7 +206,7 @@ class Collection extends \ArrayObject
      * Detects whether the given type represents a relative or absolute path.
      *
      * This method will detect keywords as being absolute; even though they are
-     * not preceeded by a namespace separator.
+     * not preceded by a namespace separator.
      *
      * @param string $type A relative or absolute type as defined in the
      *     phpDocumentor documentation.

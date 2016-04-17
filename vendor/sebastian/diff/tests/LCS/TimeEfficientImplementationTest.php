@@ -13,7 +13,7 @@ namespace SebastianBergmann\Diff\LCS;
 use PHPUnit_Framework_TestCase;
 
 /**
- * Some of these tests are volontary stressfull, in order to give some approximative benchmark hints.
+ * Some of these tests are voluntary stressfull, in order to give some approximative benchmark hints.
  */
 class TimeEfficientImplementationTest extends PHPUnit_Framework_TestCase
 {
