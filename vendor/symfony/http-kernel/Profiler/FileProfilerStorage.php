@@ -235,13 +235,13 @@ class FileProfilerStorage implements ProfilerStorageInterface
 
             $buffer = fread($file, $chunkSize);
 
-            if (false === ($upTo = strrpos($buffer, "\n"))) {
+            if (false === ($up to = strrpos($buffer, "\n"))) {
                 $line = $buffer.$line;
                 continue;
             }
 
-            $position += $upTo;
-            $line = substr($buffer, $upTo + 1).$line;
+            $position += $up to;
+            $line = substr($buffer, $up to + 1).$line;
             fseek($file, max(0, $position), SEEK_SET);
 
             if ('' !== $line) {
